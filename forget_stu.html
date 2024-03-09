@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget Password</title>
+    <link rel="stylesheet" href="./Style_css/base.css">
+    <link rel="stylesheet" href="./Style_css/forget.css">
+    <style>
+        /* 因为老师同学公用一个css，消除学号和职工号字的数量带来的定位影响 */
+        .number1{
+            width: 45px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="wrap">
+            <form action="" method="post">
+                <!-- 找回密码 -->
+                <div class="header">
+                    找回密码
+                </div>
+                <!-- 学号 -->
+                <div class="number_large">
+                    <div class="number1">
+                        学号        
+                    </div>
+                    <input type="text" class="number2">
+                </div>
+                <!-- 手机号 -->
+                <div class="phnum_large">
+                    <div class="phnum1">
+                        手机号
+                    </div>
+                    <input type="text" class="phnum2">
+                </div>
+                <!-- 验证码 -->
+                <div class="code_large">
+                    <div class="code1">
+                        验证码
+                    </div>
+                    <input type="text" class="code2">
+                    <button type="button" class="code3">
+                        发送验证码
+                    </button>
+                </div>
+                <!-- 新密码 -->
+                <div class="password_large">
+                    <div class="password1">
+                        新密码
+                    </div>
+                    <input type="text" class="password2">
+                </div>
+                <!-- 确认新密码 -->
+                <div class="pw_conf_large">
+                    <div class="pw_conf1">
+                        确认新密码
+                    </div>
+                    <input type="text" class="pw_conf2">
+                </div>
+                <!-- 提交 -->
+                <div class="sub_large">
+                    <input type="submit" value="提&nbsp;&nbsp;交" class="sub1">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

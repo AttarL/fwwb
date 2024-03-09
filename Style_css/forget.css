@@ -1,0 +1,244 @@
+/* 给body设置元素内容水平居中和背景 */
+body{
+    background-image: url(../login_images/login_container_bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+/* 背景模糊类 */
+body::before {
+    content: "";
+    position: absolute; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px); /* 模糊半径 */
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.box1{
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    margin-top: -300px;
+}
+
+.wrap{
+    overflow: hidden;
+    width: 500px;
+    height: 600px;
+    background-color:rgba(255, 255, 255, 0.6);
+    border: 2px solid #bebebe;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    line-height: 120px;
+    font-weight: 600;
+}
+
+.number_large{
+    width: 100%;
+    height: 72px;
+    position: relative;
+}
+
+.number1{
+    width: 60px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 95px;
+}
+
+.number2{
+    width: 300px;
+    height: 35px;
+    background-color:rgba(255, 255, 255, 0.75);
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 0 10px;
+    position: absolute;
+    left: 99px;
+    top: 32px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.phnum_large{
+    width: 100%;
+    height: 72px;
+    position: relative;
+}
+
+.phnum1{
+    width: 50px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 100px;
+}
+
+.phnum2{
+    width: 300px;
+    height: 35px;
+    background-color:rgba(255, 255, 255, 0.75);
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 0 10px;
+    position: absolute;
+    left: 99px;
+    top: 32px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.code_large{
+    width: 100%;
+    height: 72px;
+    position: relative;
+}
+
+.code1{
+    width: 50px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 100px;
+}
+
+.code2{
+    width: 190px;
+    height: 35px;
+    background-color:rgba(255, 255, 255, 0.78);
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 0 10px;
+    position: absolute;
+    left: 99px;
+    top: 32px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.code3{
+    width: 102px;
+    height: 37px;
+    position: absolute;
+    left: 318px;
+    top: 32px;
+    border: 1px solid black;
+    background-color:rgba(255, 255, 255, 0.78);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.code3:hover{
+    background-color:rgb(212, 207, 207);
+}
+
+.password_large{
+    width: 100%;
+    height: 72px;
+    position: relative;
+}
+
+.password1{
+    width: 60px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 95px;
+}
+
+.password2{
+    width: 300px;
+    height: 35px;
+    background-color:rgba(255, 255, 255, 0.75);
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 0 10px;
+    position: absolute;
+    left: 99px;
+    top: 32px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.pw_conf_large{
+    width: 100%;
+    height: 72px;
+    position: relative;
+}
+
+.pw_conf1{
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 91px;
+}
+
+.pw_conf2{
+    width: 300px;
+    height: 35px;
+    background-color:rgba(255, 255, 255, 0.6);
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 0 10px;
+    position: absolute;
+    left: 99px;
+    top: 32px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.sub_large{
+    margin-top: 30px;
+    width: 100%;
+    height: 38px;
+    position: relative;
+    margin-bottom: 3px;
+}
+
+.sub1{
+    width: 323px;
+    height: 38px;
+    line-height: 38px;
+    position: absolute;
+    left: 99px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(54, 111, 218, 0.8);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sub1:hover{
+    background-color: rgba(54, 111, 218, 1);
+}

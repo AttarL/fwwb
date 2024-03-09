@@ -1,0 +1,319 @@
+body{
+    text-align: center;
+    /* 使网页布局不会因为网页缩放而改变 */
+    width: 100%;
+    min-width: 1500px;
+}
+
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+.nav{
+    width: 100%;
+    height: 74px;
+    background-color: rgb(141, 190, 249);
+}
+
+.back{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.hdu{
+    float: left;
+    background-color: white;
+}
+
+.hdu_pic{
+    height: 70px;
+}
+
+.motto{
+    float: left;
+    background-color: white;
+}
+
+.motto_pic{
+    height: 70px;
+}
+
+.login{
+    float: right;
+    width: 200px;
+    height: 74px;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgb(71, 147, 247);
+    cursor: pointer;
+}
+
+
+.engine{
+    float: right;
+    background-color: rgb(137, 211, 248);
+    width: 400px;
+    height: 74px;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.wrap{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.cha1{    
+    text-align: center;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(141, 190, 249); 
+}
+
+.pic1{
+    height: 500px;
+    background-color: bisque;
+}
+
+.pic2{
+    height: 500px;
+    background-color: gainsboro;
+}
+
+.cha2{
+    text-align: center;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgba(243, 243, 67, 0.8); 
+}
+
+.con{
+    height: 550px;
+}
+
+.content1{
+    background-color: rgb(238, 211, 77);
+    width: 400px;
+    height: 550px;
+    margin-right: 100px;
+    float: left;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.content2{
+    background-color: rgb(238, 211, 77);
+    width: 400px;
+    height: 550px;
+    margin-right: 100px;
+    float: left;
+    position: relative;
+}
+
+.content3{
+    background-color: rgb(238, 211, 77);
+    width: 400px;
+    height: 550px;
+    float: left;
+    position: relative;
+}
+
+.hd{
+    position: absolute;
+    left: 130px;
+    top: 25px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+ol>li{
+    list-style-type: decimal;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.li1{
+    position: absolute;
+    left: 155px;
+    top: 75px;
+}
+
+.li2{
+    position: absolute;
+    left: 155px;
+    top: 95px;
+}
+
+.li3{
+    position: absolute;
+    left: 155px;
+    top: 115px;
+}
+
+.pic3{
+    background-color: aliceblue;
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    z-index: 1;
+}
+
+.pos1{
+    width: 1400px;
+    height: 667px;
+    position: relative;
+}
+
+.cha3{
+    text-align: center;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(141, 190, 249);
+    position: absolute;
+    left: 0;
+    z-index: 9;
+}
+
+.content4{
+    float: left;
+    width: 500px;
+    height: 600px;
+    margin-left: 150px;
+}
+
+.content5{
+    float: left;
+    width: 500px;
+    height: 600px;
+    margin-left: 100px;
+}
+
+.cha4{
+    width: 250px;
+    height: 40px;
+    background-color:rgb(127, 236, 199);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.pic4{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+.pos2{
+    width: 1400px;
+    height: 600px;
+}
+
+.cha5{
+        text-align: center;
+        width: 300px;
+        margin-bottom: 30px;
+        margin-left: 150px;
+        padding: 15px 0;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: rgba(243, 243, 67, 0.8); 
+}
+
+.pic5{
+    background-color: rgb(239, 231, 142);
+    width: 1100px;
+    height: 400px;
+    margin-left: 150px;
+}
+
+.foot{
+    background-color: rgb(71, 147, 247, .7);
+    width: 100%;
+    height: 130px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.code1{
+    width: 90px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.line{
+    width: 2px;
+    height: 100px;
+    border-left: 2px solid black;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.code2{
+    width: 90px;
+    float: left;
+    margin-top: 10px;
+}
+
+.word1{
+    position: absolute;
+    left: 28px;
+    bottom: 8px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.word2{
+    position: absolute;
+    left: 153px;
+    bottom: 8px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.word3{
+    position: absolute;
+    left: 252px;
+    top: 40px;
+    font-weight: 600;
+}
+
+.word4{
+    position: absolute;
+    left: 252px;
+    top: 80px;
+    font-weight: 600;
+}
